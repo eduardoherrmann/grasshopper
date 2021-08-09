@@ -1,0 +1,22 @@
+var word = "banana";
+
+console.log(word);
+
+let map = {};
+
+
+for (let i in word){
+	let letra = word[i];
+	map[letra] =  i;
+  console.log(word[i] +": "+ i);
+ 
+        
+
+}
+
+let stringMap = mapString(word);
+
+
+for (let letter in stringMap){
+console.log(letter + ': ' + stringMap[letter]);
+}
